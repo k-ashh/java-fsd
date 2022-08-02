@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AdditionFunc {
+public class additionFunc {
 	
 	Scanner sc = new Scanner(System.in);
 	
@@ -9,7 +9,8 @@ public class AdditionFunc {
 		double a = sc.nextDouble();
 		System.out.println("Enter Operand 'B':");
 		double b = sc.nextDouble();
-		System.out.println("Result: A+B="+(a+b));
+		System.out.println("Result: A+B = "+ (int)(a+b));
+		System.out.println();
 	
 	}
 
