@@ -48,7 +48,7 @@ public class LIS {
 		System.out.println("Please enter the elements of array:\n");
 	    for(int i=0; i<n ; i++)
 	    	arr[i]=sc.nextInt();
-	    System.out.println("Length of lis is " + lis(arr, n)+ "\n");
+	    System.out.println("Length of Largest Increasing Subsequence for the given array is " + lis(arr, n)+ "\n");
 	    
 	}
 	
