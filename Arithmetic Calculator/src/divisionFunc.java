@@ -12,7 +12,7 @@ public class divisionFunc {
 	
 		try {
 		
-			System.out.println("Result: A/B = "+ (float)(a/b));
+			System.out.println("Result: A/B = "+(a/b));
 			System.out.println();
 		
 		} catch (Exception e) {
