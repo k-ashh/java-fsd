@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 
 public class readFile {
 	
-	public void read() {
+	public void read_file() {
 		Scanner sc = new Scanner(System.in);
         try {
         	System.out.println("Enter the name of the file you want to Read:\n");
