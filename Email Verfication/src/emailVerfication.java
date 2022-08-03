@@ -42,7 +42,7 @@ public class emailVerfication {
 			System.out.println("Email is found in the array.");
 		}
 		else {
-			System.out.println("Email is found in the array.");
+			System.out.println("Email is not found in the array!!!!!");
 		}
 		
 	}
