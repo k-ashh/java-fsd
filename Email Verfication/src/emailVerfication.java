@@ -8,14 +8,14 @@ public class emailVerfication {
 		ArrayList<String> email_list = new ArrayList<>();
 		
 		boolean flag=false;		
-		email_list.add("ashu@mphasis.com");  
-		email_list.add("kumar@mphasis.com");  
+		email_list.add("ashu@gmail.com");  
+		email_list.add("kumar@gmail.com");  
 		email_list.add("xyz@mphasis.com");  
-		email_list.add("abc@mphasis.com");  
-		email_list.add("manager@mphasis.com");  
-		email_list.add("hr@mphasis.com");  
-		email_list.add("ceo@mphasis.com");  
-		email_list.add("xyz@gmail.com");  
+		email_list.add("abc@gmail.com");  
+		email_list.add("manager@gamil.com");  
+		email_list.add("hr@gmail.com");  
+		email_list.add("ceo@yahoo.com");  
+		email_list.add("xyz@yahoo.com");  
 		
 		Scanner scan = new Scanner(System.in);
 		
