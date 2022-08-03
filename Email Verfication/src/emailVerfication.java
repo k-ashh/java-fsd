@@ -10,7 +10,7 @@ public class emailVerfication {
 		boolean flag=false;		
 		email_list.add("ashu@gmail.com");  
 		email_list.add("kumar@gmail.com");  
-		email_list.add("xyz@mphasis.com");  
+		email_list.add("xyz@gmail.com");  
 		email_list.add("abc@gmail.com");  
 		email_list.add("manager@gamil.com");  
 		email_list.add("hr@gmail.com");  
