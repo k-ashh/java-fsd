@@ -17,6 +17,7 @@ public class calculatorMain {
 			System.out.println("1. Add    2. Subtract    3. Multiply    4. Divide    5. Exit");
 			System.out.println("Please Enter one of the above choice");
 			int ch = sc.nextInt();
+			System.out.println();
 			switch(ch) {
 				case 1:
 					a.add();
