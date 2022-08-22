@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class LIS {
+class LIS {
 	
-	static int lis(int arr[], int n) {
+	public static int lis(int arr[], int n) {
         int lis[] = new int[n];
         int i, j, max = 0;
         
@@ -53,5 +53,3 @@ public class LIS {
 	}
 	
 }
-
-

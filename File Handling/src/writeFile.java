@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -20,6 +21,9 @@ public class writeFile {
             wr.write(txt);
             wr.close();
             System.out.println("Write Successfull.");
+        }
+        catch (FileNotFoundException f) {
+            System.out.println("File Does not exit.!!!");
         }
         catch (IOException e) {
             System.out.println("Please Enter a Valid input!");
