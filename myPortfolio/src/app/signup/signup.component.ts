@@ -8,7 +8,7 @@ import { FormGroup,FormBuilder,Validators } from '@angular/forms';
 })
 export class SignupComponent implements OnInit {
 
-  registerForm: FormGroup;
+  registerForm!: FormGroup;
   submitted:boolean=false;
   constructor(private builder:FormBuilder) { }
 
