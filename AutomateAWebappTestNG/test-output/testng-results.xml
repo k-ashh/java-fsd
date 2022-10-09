@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75841" started-at="2022-10-09T22:08:34 IST" finished-at="2022-10-09T22:09:50 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="22604" started-at="2022-10-09T22:08:34 IST" finished-at="2022-10-09T22:08:57 IST">
+      <class name="Spring.AutomateAWebappTestNG.TestNgTest1">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@7a765367]" name="config" is-config="true" duration-ms="1827" started-at="2022-10-09T22:08:34 IST" finished-at="2022-10-09T22:08:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="testRegister(java.lang.String)[pri:1, instance:Spring.AutomateAWebappTestNG.TestNgTest1@7a765367]" name="testRegister" duration-ms="20053" started-at="2022-10-09T22:08:36 IST" finished-at="2022-10-09T22:08:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@7a765367]" name="quitbrowser" is-config="true" duration-ms="692" started-at="2022-10-09T22:08:56 IST" finished-at="2022-10-09T22:08:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- Spring.AutomateAWebappTestNG.TestNgTest1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="17820" started-at="2022-10-09T22:08:57 IST" finished-at="2022-10-09T22:09:15 IST">
+      <class name="Spring.AutomateAWebappTestNG.TestNgTest1">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@6a1aab78]" name="config" is-config="true" duration-ms="1220" started-at="2022-10-09T22:08:57 IST" finished-at="2022-10-09T22:08:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="testLogin(java.lang.String)[pri:2, instance:Spring.AutomateAWebappTestNG.TestNgTest1@6a1aab78]" name="testLogin" duration-ms="15879" started-at="2022-10-09T22:08:58 IST" finished-at="2022-10-09T22:09:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@6a1aab78]" name="quitbrowser" is-config="true" duration-ms="720" started-at="2022-10-09T22:09:14 IST" finished-at="2022-10-09T22:09:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- Spring.AutomateAWebappTestNG.TestNgTest1 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="17307" started-at="2022-10-09T22:09:15 IST" finished-at="2022-10-09T22:09:32 IST">
+      <class name="Spring.AutomateAWebappTestNG.TestNgTest1">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@66d1af89]" name="config" is-config="true" duration-ms="2895" started-at="2022-10-09T22:09:15 IST" finished-at="2022-10-09T22:09:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String)[pri:3, instance:Spring.AutomateAWebappTestNG.TestNgTest1@66d1af89]" name="testInvalidLogin" duration-ms="13735" started-at="2022-10-09T22:09:18 IST" finished-at="2022-10-09T22:09:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@66d1af89]" name="quitbrowser" is-config="true" duration-ms="675" started-at="2022-10-09T22:09:31 IST" finished-at="2022-10-09T22:09:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- Spring.AutomateAWebappTestNG.TestNgTest1 -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="18087" started-at="2022-10-09T22:09:32 IST" finished-at="2022-10-09T22:09:50 IST">
+      <class name="Spring.AutomateAWebappTestNG.TestNgTest1">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@6950e31]" name="config" is-config="true" duration-ms="2896" started-at="2022-10-09T22:09:32 IST" finished-at="2022-10-09T22:09:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="testSearchandAddToCart(java.lang.String)[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@6950e31]" name="testSearchandAddToCart" duration-ms="14359" started-at="2022-10-09T22:09:35 IST" finished-at="2022-10-09T22:09:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchandAddToCart -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:Spring.AutomateAWebappTestNG.TestNgTest1@6950e31]" name="quitbrowser" is-config="true" duration-ms="830" started-at="2022-10-09T22:09:49 IST" finished-at="2022-10-09T22:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- Spring.AutomateAWebappTestNG.TestNgTest1 -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
